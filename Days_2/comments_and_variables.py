@@ -8,7 +8,8 @@ this is multiline comment example
 '''
 
 #variable examples
-roll = 1
-name = "Ex Student"
+student_roll = 1
+_student_name = "Ex Student"
 cgpa = 3.21
-isStudent = true
+isStudent = True
+
