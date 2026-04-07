@@ -38,3 +38,23 @@ print(b)
 d = memoryview(bytes(4)) # memoryview
 print(type(d))
 print(d)
+
+# Type Conversion
+# int() contstructor
+# float() constructor
+# str() constructor 
+x = 3 # int
+y = 2.3 # float
+z = 3j # complex but this number can't convert another type
+a = float(x) # int to float
+b = int(y) # float to int
+c = complex(x)
+d = str(x)
+print(a)
+print(b)
+print(c)
+print(d)
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
