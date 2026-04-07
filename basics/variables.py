@@ -33,3 +33,16 @@ def myFunc():
   print("Local e= ", e)
 myFunc()
 print("Global e= ", e)
+
+# Illegal Variable name 
+# first-name = "Mr" # Not contain any symbol except underscore(_)
+# 2name = "Rahim" # Not allow number at start
+# from = "Dhaka" #  Not allow use keyword as variable name
+
+# Types Of Variable Name Declaring
+
+myFirstName = "Mr." # Camel Case
+MyLastName = "Rahim" # Pascal Case
+my_address = "Dhaka" # Snake Case
+
+print(id(my_address)) # print variable address
