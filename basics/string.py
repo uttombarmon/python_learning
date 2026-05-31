@@ -76,3 +76,11 @@ print(intro)  # Output: I am Barmon from Dhaka.
 num = 42
 text = "The answer is " + str(num)
 print(text)  # Output: The answer is 42
+
+print(text.capitalize())
+print(text.casefold())
+print(text.center(10))
+print(text.count("i"))
+print(text.encode())
+print(text.encode())
+print(text.endswith("2"))
